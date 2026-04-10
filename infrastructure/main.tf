@@ -42,6 +42,7 @@ variable "bucket_prefix" {
 
 variable "owner_email" {
   type = string
+  default = "test@example.com"
 }
 
 # ---------------- S3 BUCKET ----------------
