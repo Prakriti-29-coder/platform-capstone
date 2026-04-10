@@ -37,7 +37,7 @@ variable "environment" {
 
 variable "bucket_prefix" {
   type    = string
-  default = "cnc-logs"
+  default = "cnc-logs-prakriti"
 }
 
 variable "owner_email" {
